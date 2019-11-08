@@ -1,0 +1,49 @@
+
+doctype html
+html
+    head
+        link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+        title First Pug Template 
+    body
+
+
+        div.row.justify-content-center
+            div.col-md-6
+                div.card-body
+                    header.card-header
+                        h4.card-title THE ASSINGMENT
+                form(method="post" action="thanks")
+                    div.form-row
+                        div.col.form-group
+                            label First name
+                            input.form-control(name="firstname" type="text")
+                        div.col.form-group
+                            label Last name 
+                            input.form-control(name="lastname" type="text")
+                            div.form-row
+                                div.col.form-group
+                                      label.form-check.form-check-inline
+                                            input.form-check-input(type="radio" name="gender" value="female")
+                                            spin.form-check-lable Female
+                                      label.form-check.form-check-inline
+                                            input.form-check-input(type="radio" name="gender" value="male")
+                                            spin.form-check-lable Male
+                        div.form-row
+                                div.col.form-group
+                                    lable WHERE IS THE PLACE
+                                    input.form-control(name="activity" type="text")
+                        div.form-rom
+                                div.col.form-group
+                                    label REPORT UN INCIDENT
+                                    input.form-control(name="activity" type="text")
+                        div.form-rom
+                                div.col.form-group
+                                    label DESCRICBE THE ACTION
+                                    input.form-control(name="activity" type="text")
+                                <br/> 
+                        div.form-row        
+                                div.col.form-group      
+                                    button.btn.btn-primary.btn-block submit  
+
+                                    
+
